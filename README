@@ -1,0 +1,16 @@
+Lucene Twitter Demo
+-------------------
+
+To run demo, clone repository, build the two source files (TweetIndexer and TweetSearcher). 
+
+Note: You will need to add the Lucene library to your classpath before compiling. See the "Setting your CLASSPATH" section of this page: http://lucene.apache.org/core/3_5_0/demo.html 
+
+Run indexer first:
+
+java TweetIndexer <index directory> <csv data file>
+
+Once indexing is completed, run the search demos:
+
+java TweetSearcher <index directory> <expected number of hits>
+
+Tweets dataset source: http://help.sentiment140.com/for-students 
